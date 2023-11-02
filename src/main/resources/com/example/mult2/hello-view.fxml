@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane prefHeight="560.0" prefWidth="1109.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mult2.HelloController">
+   <children>
+      <Circle fx:id="circle1" fill="#1fff5f" layoutX="56.0" layoutY="78.0" onMouseClicked="#circleClick" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle2" fill="#ceff21" layoutX="56.0" layoutY="165.0" onMouseClicked="#circleClick" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
